@@ -1,0 +1,105 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio__sub-title--red {
+    color: #FB6D3A;
+}
+.portfolio__sub-tile-name--gray {
+    color: #000000;
+}
+.projects-info-list__item-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.inline {
+    flex: 1;
+    border-style: none;
+    border-bottom: 1px dashed;
+    margin: 0;
+}
+.portfolio__project--arc {
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #000000;
+}
+
+.portfolio {
+    padding: 102px 88px;
+}
+
+.portfolio_roli {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+margin-bottom: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+
+.portfolio__name {
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+margin-bottom: 24px;
+
+color: #000000;
+
+}
+.portfolio__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #595959;
+}
+.portfolio__roli-container {
+    max-width: 443px;
+    margin-bottom: 64px;
+}
+.portfolio__sub-title-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    line-height: 15px;
+/* identical to box height */
+
+
+color: #A8A8A8
+}
+.portfolio__work-experience {
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000
+}
+.portfolio__first-work {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #595959
+}
