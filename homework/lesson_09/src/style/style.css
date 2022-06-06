@@ -6,13 +6,18 @@
     list-style: none;
 }
 
-:root { 
-    --main-font: 'Poppins', sans-serif;
-    --button-color: #FF9900;
+body {
+font-family: 'Poppins', sans-serif;
 }
 
-body {
-font-family: var(--main-font);
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
 }
 
 button {
@@ -28,23 +33,61 @@ button {
     background-color: transparent;
 }
 
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /* Global style End */
 
-.header {
+.nav__holder {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.header__img {
+    float: left;
+}
+
+.header__menu-container {
+    float: left;
+}
+.header {
+    padding: 35px 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    margin-bottom: 100px;
+    background-color: #ffff;
+}
+
+.header__menu-items {
+    display: inline-block;
 }
 
 .header__button-in {
     color: #173A56;
     border: 1px solid #BCD0E5;
+    display: inline-block;
 }
 
 .header__button-up {
     background-color: var(--button-color);
     border: none;
     color: #ffff;
+    display: inline-block;
 }
 
 /* Header menu End */
@@ -75,7 +118,7 @@ button {
     color: #ffff;
 }
 
-.started__logo {
-    color: #FF9900;
+.started__watch {
+    color: var(--button-color)
 
 }

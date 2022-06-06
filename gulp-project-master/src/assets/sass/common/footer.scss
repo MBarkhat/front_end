@@ -1,0 +1,30 @@
+.footer {
+    background-color: #F4F4F4;
+    ;
+
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 128px 160px; 
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: auto;
+        
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__text {
+        margin-top: auto;
+    }
+}
