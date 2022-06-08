@@ -1,13 +1,18 @@
 .footer {
     background-color: #F4F4F4;
-    ;
 
 
     &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 128px 160px; 
+        padding: 128px 160px;
+
+        @media (max-width: $tab) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
     }
 
     &__contacts {
@@ -16,15 +21,38 @@
         gap: 16px;
         margin-top: auto;
         
+        @media (max-width: $tab) {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-bottom: 48px;
+        }
+
+
     }
 
     &__links {
         display: flex;
         flex-direction: column;
         gap: 24px;
+
+
+        @media (max-width: $tab) {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            gap: 24px;
+            left: 16px;
+        }
+
     }
 
     &__text {
         margin-top: auto;
+        
+        @media (max-width: $tab) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
